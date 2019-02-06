@@ -146,3 +146,69 @@ html, body {
     font-size: 3rem;
     padding-bottom: 1.5rem;
 }
+
+.call-to-action {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.portfolio-container {
+    max-width: 80rem;
+    height: 50rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    
+}
+
+.portfolio {
+    position: relative;
+    max-width: 40rem;
+    height: 25rem;
+    color: #FFF;
+    box-shadow: 1px 1px 3px rgba(52, 58, 64, 1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.portfolio:hover .overlay {
+    background-color: rgba(0, 0, 0, .5);
+    transition: all .6s ease 0s;
+    
+}
+
+.portfolio:hover {
+    cursor: pointer;
+    transform: scale(.8);
+    transition: all 1s ease-in-out 0s;
+}
+
+.portfolio h6 {
+    padding-top: 15rem;
+}
+
+.portfolio-one {
+    background: url(./assets/img/bg1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.portfolio-two {
+    background: url(./assets/img/bg2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.portfolio-three {
+    background: url(./assets/img/bg3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.portfolio-four {
+    background: url(./assets/img/bg5.jpg) no-repeat center center;
+    background-size: cover;
+}
