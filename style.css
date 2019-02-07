@@ -166,6 +166,7 @@ html, body {
     height: 25rem;
     color: #FFF;
     box-shadow: 1px 1px 3px rgba(52, 58, 64, 1);
+    transition: all .5s ease-in-out 0s;
 }
 
 .overlay {
@@ -178,7 +179,7 @@ html, body {
 }
 
 .portfolio:hover .overlay {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(104, 155, 238, 0.5);
     transition: all .6s ease 0s;
     
 }
@@ -186,7 +187,6 @@ html, body {
 .portfolio:hover {
     cursor: pointer;
     transform: scale(.8);
-    transition: all 1s ease-in-out 0s;
 }
 
 .portfolio h6 {
@@ -211,4 +211,28 @@ html, body {
 .portfolio-four {
     background: url(./assets/img/bg5.jpg) no-repeat center center;
     background-size: cover;
+}
+
+.contacts {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+footer.social {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.list-inline-item {
+    padding: 0 1rem;
+}
+
+.list-inline-icon {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(23, 84, 199, 0.808);
+    line-height: 5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
 }
